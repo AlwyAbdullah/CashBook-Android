@@ -1,9 +1,8 @@
-package com.alfan.cashbooksertifikasi;
+package com.alwy.cashbooksertifikasi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
-import android.content.ContentValues;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,11 +11,10 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.alfan.cashbooksertifikasi.DB.DBHelper;
+import com.alwy.cashbooksertifikasi.DB.DBHelper;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Locale;
 
 public class PemasukanActivity extends AppCompatActivity {

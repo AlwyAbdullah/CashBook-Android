@@ -1,5 +1,5 @@
-package com.alfan.cashbooksertifikasi.Models;
-import java.util.Date;
+package com.alwy.cashbooksertifikasi.Models;
+
 public class DetailModel {
     private String id;
     private double jumlah;

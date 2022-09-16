@@ -1,14 +1,13 @@
-package com.alfan.cashbooksertifikasi.DB;
+package com.alwy.cashbooksertifikasi.DB;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.alfan.cashbooksertifikasi.Models.DetailModel;
+import com.alwy.cashbooksertifikasi.Models.DetailModel;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 public class DBHelper extends SQLiteOpenHelper {
     private SQLiteDatabase db;

@@ -1,4 +1,4 @@
-package com.alfan.cashbooksertifikasi;
+package com.alwy.cashbooksertifikasi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.alfan.cashbooksertifikasi.DB.DBHelper;
+import com.alwy.cashbooksertifikasi.DB.DBHelper;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

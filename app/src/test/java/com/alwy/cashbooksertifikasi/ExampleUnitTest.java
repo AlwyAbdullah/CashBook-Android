@@ -1,4 +1,4 @@
-package com.alfan.cashbooksertifikasi;
+package com.alwy.cashbooksertifikasi;
 
 import org.junit.Test;
 

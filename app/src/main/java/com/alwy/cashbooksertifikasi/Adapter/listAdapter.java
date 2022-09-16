@@ -1,4 +1,4 @@
-package com.alfan.cashbooksertifikasi.Adapter;
+package com.alwy.cashbooksertifikasi.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,9 +13,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
-import com.alfan.cashbooksertifikasi.DB.DBHelper;
-import com.alfan.cashbooksertifikasi.Models.DetailModel;
-import com.alfan.cashbooksertifikasi.R;
+import com.alwy.cashbooksertifikasi.DB.DBHelper;
+import com.alwy.cashbooksertifikasi.Models.DetailModel;
+import com.alwy.cashbooksertifikasi.R;
 
 public class listAdapter extends RecyclerView.Adapter<listAdapter.MyViewHolder>{
     Context context;

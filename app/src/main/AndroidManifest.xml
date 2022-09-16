@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alfan.cashbooksertifikasi">
+    package="com.alwy.cashbooksertifikasi">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Cashbooksertifikasi">
-        <activity android:name=".PengeluaranActivity"></activity>
-        <activity android:name=".PemasukanActivity" />
-        <activity android:name=".PengaturanActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".DetailActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.alwy.cashbooksertifikasi.PengeluaranActivity"></activity>
+        <activity android:name="com.alwy.cashbooksertifikasi.PemasukanActivity" />
+        <activity android:name="com.alwy.cashbooksertifikasi.PengaturanActivity" />
+        <activity android:name="com.alwy.cashbooksertifikasi.LoginActivity" />
+        <activity android:name="com.alwy.cashbooksertifikasi.DetailActivity" />
+        <activity android:name="com.alwy.cashbooksertifikasi.MainActivity">
         </activity>
 
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.alwy.cashbooksertifikasi.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

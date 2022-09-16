@@ -1,4 +1,4 @@
-package com.alfan.cashbooksertifikasi;
+package com.alwy.cashbooksertifikasi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.alfan.cashbooksertifikasi.DB.DBHelper;
+import com.alwy.cashbooksertifikasi.DB.DBHelper;
 
 public class LoginActivity extends AppCompatActivity {
     private static final String MY_PREFS_NAME = "MyPreferences";

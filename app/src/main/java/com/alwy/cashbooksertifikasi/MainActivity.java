@@ -1,4 +1,4 @@
-package com.alfan.cashbooksertifikasi;
+package com.alwy.cashbooksertifikasi;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -6,26 +6,15 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.alfan.cashbooksertifikasi.DB.DBHelper;
-import com.alfan.cashbooksertifikasi.Models.DetailModel;
-import com.github.mikephil.charting.charts.LineChart;
+import com.alwy.cashbooksertifikasi.DB.DBHelper;
 
 import java.text.NumberFormat;
-import java.util.ArrayList;
 import java.util.Locale;
 
 //chart
-import com.github.mikephil.charting.components.Description;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.formatter.ValueFormatter;
+
 
 public class MainActivity extends AppCompatActivity {
     DBHelper db;
